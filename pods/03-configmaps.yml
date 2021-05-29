@@ -11,7 +11,7 @@ data:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: sample2
+  name: sample
 spec:
   containers:
     - name: centos
