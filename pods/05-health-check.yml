@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: Healthcheck
+  name: healthcheck
 spec:
   containers:
     - name: health
