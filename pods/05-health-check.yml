@@ -7,3 +7,10 @@ spec:
   containers:
     -name: health
      image: nikkaushal/healthcheck
+     livenessProbe:
+       exec:
+         command:
+           - cat
+           - /opt/file.txt
+         initialDelaySeconds: 5
+         periodSeconds: 5
