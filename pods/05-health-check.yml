@@ -6,8 +6,8 @@ metadata:
 spec:
   containers:
     - name: health
-     image: nikkaushal/healthcheck
-     livenessProbe:
+      image: nikkaushal/healthcheck
+      livenessProbe:
        exec:
          command:
            - cat
