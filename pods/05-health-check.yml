@@ -5,7 +5,7 @@ metadata:
   name: healthcheck
 spec:
   containers:
-    -name: health
+    - name: health
      image: nikkaushal/healthcheck
      livenessProbe:
        exec:
