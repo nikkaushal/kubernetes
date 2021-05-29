@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: pod
+metadata:
+  name: healthcheck
+spec:
+  containers:
+    -name: health
+     image: nikkaushal/healthcheck
