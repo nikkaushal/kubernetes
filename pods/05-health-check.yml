@@ -10,7 +10,7 @@ spec:
       livenessProbe:
        exec:
          command:
-           - cat
-           - /opt/file.txt
-         initialDelaySeconds: 5
-         periodSeconds: 5
+            - cat
+            - /opt/file.txt
+       initialDelaySeconds: 5
+       periodSeconds: 5
