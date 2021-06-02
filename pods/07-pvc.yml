@@ -24,7 +24,7 @@ spec:
           value: root123
       volumeMounts:
         - mountPath: "/var/lib/mysql"
-          name: mypd
+          name: mysql
   volumes:
     - name: mysql
       persistentVolumeClaim:
