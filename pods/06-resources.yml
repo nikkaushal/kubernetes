@@ -4,8 +4,9 @@ metadata:
   name: resources-test
 spec:
   containers:
-    - name: nginx
-      image: nginx
+    - name: centos
+      image: cemtos:7
+      command: ["sleep", "10000"]
       resources:
         requests:
           cpu: 250m
@@ -13,4 +14,3 @@ spec:
         limits:
           cpu: 500m
           memory: 256Mi
-          
